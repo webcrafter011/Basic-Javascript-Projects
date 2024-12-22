@@ -1,0 +1,88 @@
+/* Robot Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #5145BA;
+}
+
+/* configuration container structure */
+.config-container {
+    background: white;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.50);
+    text-align: center;
+}
+
+.config-container .config-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.config-container .config-options {
+    margin-top: 10px;
+}
+
+/* configuration structure end */
+
+/* universal buttons styles */
+.category-options button {
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.category-options button:hover {
+    transform: scale(1.1);
+    transition: transform 0.1s ease;
+    background-color: #9B8FFF;
+}
+
+.start-btn {
+    padding: 15px;
+    margin-top: 5px;
+    border-radius: 8px;
+    background: #5145BA;
+    cursor: pointer;
+    color: white;
+    border: none;
+    margin-top: 20px;
+}
+
+.start-btn:active {
+    transform: scale(0.9);
+    transition: transform 0.1s ease;
+    background: #3e3a9f;
+}
+
+/* buttons end */
+
+.category-options .option-title {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.category-options .option-list {
+    margin-top: 10px;
+}
+
+.category-options .questions-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
